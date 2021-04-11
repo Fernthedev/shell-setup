@@ -1,0 +1,11 @@
+[git_status]
+conflicted = "!="
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+stashed = "📦"
+modified = "📝"
+
+[directory]
+truncation_symbol = "…/"
+style = "underline bold blue"
